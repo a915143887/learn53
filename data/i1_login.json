@@ -1,0 +1,38 @@
+[
+  {
+    "desc": "test001 正常登录",
+    "mobile": "13800000002",
+    "password": "123456",
+    "status_code":200,
+    "code": 10000,
+    "success": true,
+    "message": "操作成功！"
+  },
+  {
+    "desc": "test002 登录失败_12位手机号",
+    "mobile": "138000000022",
+    "password": "123456",
+    "status_code":200,
+    "code": 20001,
+    "success": false,
+    "message": "用户名或密码错误"
+  },
+    {
+    "desc": "test003 登录失败_10位手机号",
+    "mobile": "1380000000",
+    "password": "123456",
+    "status_code":200,
+    "code": 20001,
+    "success": false,
+    "message": "用户名或密码错误"
+  },
+    {
+    "desc": "test004 登录失败_不输入手机号",
+    "mobile": "",
+    "password": "123456",
+    "status_code":200,
+    "code": 20001,
+    "success": false,
+    "message": "用户名或密码错误"
+  }
+]

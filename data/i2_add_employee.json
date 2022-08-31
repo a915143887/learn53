@@ -1,0 +1,16 @@
+[
+     {
+    "desc": "test001_正常添加成员",
+    "username":"1234qe31",
+    "mobile":"18814101043",
+    "timeOfEntry":"2022-03-01",
+    "formOfEmployment":2,
+    "workNumber":"12345678102",
+    "departmentId":"1504870825596067840",
+    "correctionTime":"2022-03-30T16:00:00.000Z",
+    "status_code": 200,
+    "code": 10000,
+    "success": true,
+    "message": "操作成功！"
+  }
+]
