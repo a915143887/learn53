@@ -1,7 +1,0 @@
-2022-08-31 13:47:35,707 INFO [root] [i1_login.py(test001_and_004_login:30)] - 登录：{'success': True, 'code': 10000, 'message': '操作成功�?', 'data': 'undefined'}
-2022-08-31 13:47:35,708 INFO [root] [i1_login.py(test001_and_004_login:34)] - 响应头：{'Content-Type': 'application/json', 'Authorization': 'Bearer undefined'}
-2022-08-31 13:47:35,718 INFO [root] [i1_login.py(test001_and_004_login:30)] - 登录：{'success': False, 'code': 20001, 'message': '用户名或密码错误'}
-2022-08-31 13:47:35,728 INFO [root] [i1_login.py(test001_and_004_login:30)] - 登录：{'success': False, 'code': 20001, 'message': '用户名或密码错误'}
-2022-08-31 13:47:35,736 INFO [root] [i1_login.py(test001_and_004_login:30)] - 登录：{'success': False, 'code': 20001, 'message': '用户名或密码错误'}
-2022-08-31 13:47:35,743 INFO [root] [i2_add_employee.py(test001_add_employee:33)] - 添加成员：{'success': True, 'code': 10000, 'message': '操作成功�?', 'data': {'id': '1534750671146909696'}}
-2022-08-31 13:47:35,743 INFO [root] [i2_add_employee.py(test001_add_employee:36)] - 测试ID：1534750671146909696

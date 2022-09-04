@@ -200,9 +200,9 @@
         
     <div class='page-header'>
         <h1>ihrm测试报告</h1>
-    <p class='attribute'><strong>开始时间:</strong> 2022-08-31 16:15:45</p>
-<p class='attribute'><strong>运行时长:</strong> 0:00:00.075799</p>
-<p class='attribute'><strong>状态:</strong> 通过 3 失败 2</p>
+    <p class='attribute'><strong>开始时间:</strong> 2022-09-04 15:56:36</p>
+<p class='attribute'><strong>运行时长:</strong> 0:00:00.248493</p>
+<p class='attribute'><strong>状态:</strong> 通过 3 失败 5</p>
 
     </div>
     <div style="float: left;width:50%;"><p class='description'></p></div>
@@ -364,11 +364,131 @@ AssertionError: 1 != 0 : ['\nNone']
     </td>
 </tr>
 
+    <tr class='failClass'>
+        <td>scripts.i3_select_employee.ihrm_select_employee</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td><a href="javascript:showClassDetail('c3',1)">详情</a></td>
+    </tr>
+
+<tr id='ft3.1' class='none'>
+    <td class='failCase'><div class='testcase'>test001_select_employee_0_accurate</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.1')" >
+        失败</a>
+
+    <div id='div_ft3.1' class="popup_window">
+        <pre>ft3.1: 查询成员：{'success': True, 'code': 10000, 'message': '操作成功�?', 'data': {'id': '1534750671146909696'}}
+'操作成功！' != '操作成功�?'
+- 操作成功！
+?     ^
++ 操作成功�?
+?     ^^
+
+Traceback (most recent call last):
+  File "C:\python36\lib\site-packages\parameterized\parameterized.py", line 533, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "F:\untitled\untitled\learn53\scripts\i3_select_employee.py", line 37, in test001_select_employee
+    self.checkTestResult()
+  File "F:\untitled\untitled\learn53\checkPoint.py", line 79, in checkTestResult
+    return self.assertEqual(self.flag, 0, "{}".format(self.msg))
+AssertionError: 1 != 0 : ['\nNone']
+</pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+    <tr class='failClass'>
+        <td>scripts.i4_update_employee.ihrm_update_employee</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td><a href="javascript:showClassDetail('c4',1)">详情</a></td>
+    </tr>
+
+<tr id='ft4.1' class='none'>
+    <td class='failCase'><div class='testcase'>test001_update_employee_0_e34qa18</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft4.1')" >
+        失败</a>
+
+    <div id='div_ft4.1' class="popup_window">
+        <pre>ft4.1: 修改成员：{'success': True, 'code': 10000, 'message': '操作成功�?', 'data': {'id': '1534750671146909696'}}
+'操作成功！' != '操作成功�?'
+- 操作成功！
+?     ^
++ 操作成功�?
+?     ^^
+
+Traceback (most recent call last):
+  File "C:\python36\lib\site-packages\parameterized\parameterized.py", line 533, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "F:\untitled\untitled\learn53\scripts\i4_update_employee.py", line 33, in test001_update_employee
+    self.checkTestResult()
+  File "F:\untitled\untitled\learn53\checkPoint.py", line 79, in checkTestResult
+    return self.assertEqual(self.flag, 0, "{}".format(self.msg))
+AssertionError: 1 != 0 : ['\nNone']
+</pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
+    <tr class='failClass'>
+        <td>scripts.i5_delete_employee.ihrm_delete_employee</td>
+        <td>1</td>
+        <td>0</td>
+        <td>1</td>
+        <td>0</td>
+        <td><a href="javascript:showClassDetail('c5',1)">详情</a></td>
+    </tr>
+
+<tr id='ft5.1' class='none'>
+    <td class='failCase'><div class='testcase'>test001_delete_employee_0</div></td>
+    <td colspan='5' align='center'>
+
+    <!--css div popup start-->
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft5.1')" >
+        失败</a>
+
+    <div id='div_ft5.1' class="popup_window">
+        <pre>ft5.1: 删除成员：{'success': True, 'code': 10000, 'message': '操作成功�?'}
+'操作成功！' != '操作成功�?'
+- 操作成功！
+?     ^
++ 操作成功�?
+?     ^^
+
+Traceback (most recent call last):
+  File "C:\python36\lib\site-packages\parameterized\parameterized.py", line 533, in standalone_func
+    return func(*(a + p.args), **p.kwargs)
+  File "F:\untitled\untitled\learn53\scripts\i5_delete_employee.py", line 43, in test001_delete_employee
+    self.checkTestResult()
+  File "F:\untitled\untitled\learn53\checkPoint.py", line 79, in checkTestResult
+    return self.assertEqual(self.flag, 0, "{}".format(self.msg))
+AssertionError: 1 != 0 : ['\nNone']
+</pre>
+    </div>
+    <!--css div popup end-->
+
+    </td>
+</tr>
+
         <tr id='total_row'>
             <td>总计</td>
-            <td>5</td>
+            <td>8</td>
             <td>3</td>
-            <td>2</td>
+            <td>5</td>
             <td>0</td>
             <td>&nbsp;</td>
         </tr>
@@ -404,7 +524,7 @@ AssertionError: 1 != 0 : ['\nNone']
                     center: ['50%', '60%'],
                     data:[
                         {value:3, name:'通过'},
-                        {value:2, name:'失败'},
+                        {value:5, name:'失败'},
                         {value:0, name:'错误'}
                     ],
                     itemStyle: {

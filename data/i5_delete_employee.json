@@ -1,0 +1,9 @@
+[
+  {
+    "desc": "test001_正常删除成员",
+    "status_code": 200,
+    "code": 10000,
+    "success": true,
+    "message": "操作成功！"
+  }
+]
